@@ -1,1 +1,24 @@
-// TODO
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.postDescription {
+  display: flex;
+  align-items: center;
+
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+
+  color: var(--gray-400);
+
+  time, span {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+
+     svg {
+      margin-right: 0.5rem;
+     }
+  }
+}

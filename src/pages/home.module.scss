@@ -1,1 +1,38 @@
-// TODO
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.posts {
+  margin-top: 3rem;
+
+  a {
+    display: block;
+  }
+
+  h1 {
+    color: var(--gray-100);
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    color: var(--gray-200);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+  }
+}
+
+.loadMorePosts {
+  display: block;
+  background-color: transparent;
+  border: none;
+
+  font-weight: 600;
+  font-size: 1rem;
+
+  color: var(--pink);
+
+  margin-top: 4rem;
+}
